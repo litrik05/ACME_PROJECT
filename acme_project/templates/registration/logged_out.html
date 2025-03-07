@@ -1,8 +1,5 @@
 {% extends "base.html" %}
 
 {% block content %}
-<form action="{% url 'logout' %}" method="post">
-    {% csrf_token %}
-    <button type="submit">Выйти</button>
-  </form>
-{% endblock %}
+  <h2>Вы вышли из системы!</h2>
+{% endblock %} 
